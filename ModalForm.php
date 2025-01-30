@@ -4,12 +4,12 @@
  * @copyright Copyright (c) 2015 Andrey Borodulin
  * @license https://github.com/borodulin/yii2-modal-form/blob/master/LICENSE
  */
-namespace conquer\modal;
+namespace siripravi\modal;
 
 use yii\base\Widget;
 use yii\helpers\ArrayHelper;
-use conquer\modal\ModalFormAsset;
-use conquer\modal\ModalFormAsset4;
+use siripravi\modal\ModalFormAsset;
+use siripravi\modal\ModalFormAsset4;
 
 class ModalForm extends Widget
 {
@@ -59,7 +59,7 @@ class ModalForm extends Widget
         
 
         //dynamic asset version here
-        $assetClassName = 'conquer\modal\ModalFormAsset'.$this->_bsVersion;
+        $assetClassName = 'siripravi\modal\ModalFormAsset'.$this->_bsVersion;
         $class = $assetClassName;
         $class::register($this->view);
         

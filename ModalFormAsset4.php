@@ -4,12 +4,12 @@
  * @copyright Copyright (c) 2015 Andrey Borodulin
  * @license https://github.com/borodulin/yii2-modal-form/blob/master/LICENSE
  */
-namespace conquer\modal;
+namespace siripravi\modal;
 
 class ModalFormAsset4 extends \yii\web\AssetBundle
 {
 
-    public $sourcePath = '@conquer/modal/assets';
+    public $sourcePath = '@siripravi/modal/assets';
 
     public $js = [
         'modal-form.js'

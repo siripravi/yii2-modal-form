@@ -1,5 +1,5 @@
 {
-    "name": "conquer/modal",
+    "name": "siripravi/modal",
     "description": "Extension for the Yii2 framework",
     "keywords": ["yii2", "modal", "ajax", "form"],
     "homepage": "https://github.com/borodulin/yii2-modal-form",
@@ -20,7 +20,7 @@
     },
     "autoload": {
         "psr-4": {
-        	"conquer\\modal\\": ""
+        	"siripravi\\modal\\": ""
         }
     },
     "extra": {
