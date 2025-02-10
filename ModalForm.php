@@ -71,12 +71,12 @@ class ModalForm extends Widget
         $clientOptions = json_encode($this->clientOptions);
         if ($this->selector) {
             $js = <<<JS
-$('body').on('click', '{$this->selector}', function() {
-    var options = $.extend($options, $(this).data());
-    $.createModalForm(options, $clientOptions).ajaxContent({url : $(this).attr('href') || $(this).data('url')});;
-    return false;
-});
-JS;
+                $('body').on('click', '{$this->selector}', function() {
+                    var options = $.extend($options, $(this).data());
+                    $.createModalForm(options, $clientOptions).ajaxContent({url : $(this).attr('href') || $(this).data('url')});;
+                    return false;
+                });
+                JS;
             $this->view->registerJs($js);
         }
 
