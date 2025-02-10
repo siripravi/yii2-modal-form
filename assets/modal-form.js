@@ -20,7 +20,7 @@
                     + '<div class="progress progress-striped active" style="margin-bottom:0;">'
                     + '<div class="progress-bar" style="width: 100%"></div>'
                     + '</div>' + '</div>',
-            modal : '<div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">'
+            modal : '<div class="modal fade" tabindex="-1" role="dialog">'
                     + '<div class="modal-dialog">'
                     + '<div class="modal-content"></div>' + '</div>' + '</div>',
             error : '<div class="error-summary"></div>'
