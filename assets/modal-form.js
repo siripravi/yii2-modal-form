@@ -17,8 +17,9 @@
             loginUrl : null,
             loading : '<div class="modal-header">Loading...</div>'
                     + '<div class="modal-body">'
-                    + '<div class="progress progress-striped active" style="margin-bottom:0;">'
-                    + '<div class="progress-bar" style="width: 100%"></div>'
+                    + '<span class="spinner-grow spinner-grow-sm" role="status" aria-hidden="true"></span>'
+                    + 'Loading...'
+                    +'</button>'
                     + '</div>' + '</div>',
             modal : '<div class="modal fade" tabindex="-1" role="dialog">'
                     + '<div class="modal-dialog">'

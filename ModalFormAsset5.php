@@ -12,6 +12,7 @@ class ModalFormAsset5 extends \yii\web\AssetBundle
     public $sourcePath = '@siripravi/modal/assets';
 
     public $js = [
+        'avalynx-loader.js',
         'modal-form.js'
     ];
 
