@@ -22,8 +22,8 @@
                     +'</button>'
                     + '</div>' + '</div>',
             modal : '<div class="modal fade" tabindex="-1" role="dialog">'
-                    + '<div class="modal-dialog">'
-                    + '<div class="modal-content"></div>' + '</div>' + '</div>',
+                    + '<div class="modal-dialog  modal-dialog-centered">'
+                    + '<div class="modal-content border-0"></div>' + '</div>' + '</div>',
             error : '<div class="error-summary"></div>'
         }, options);
         if (options.singleton && self.hasOwnProperty('modalDialog') && self.modalDialog) {
